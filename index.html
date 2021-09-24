@@ -12,31 +12,31 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Tip Calculator</title>
 </head>
 
 <body>
-    <div class="container mt-5">
+    <div class="container  mt-5">
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header">Tip calculator</div>
+                    <div class="card-header text-center py-3 font-weight-bold">Tip Calculator</div>
                     <div class="card-body">
                         <h5>How much your bill?</h5>
-                        <input id="bill" type="text" placeholder="Bill amount">
-                        <h5>How was your services</h5>
-                        <select>
+                        <input id="bill" type="text" class="p-2 mb-2" placeholder="Bill amount">
+                        <h5 class="mt-3">How was your services?</h5>
+                        <select class="options p-2 mb-2">
                             <option id="thirty">30% - Outstanding</option>
                             <option id="twenty">20% - Good</option>
                             <option id="fifteen">15% - It was OK</option>
                             <option id="ten">10% - Bad</option>
                             <option id="zero">0 - Terrible</option>
                         </select>
-                        <h5>How many people are sharing the bill?</h5>
-                        <input id="people" type="text"> <br>
+                        <h5 class="mt-3">How many people are sharing the bill?</h5>
+                        <input id="people" type="text" class="p-2"> <br>
                         <button id="calcBtn" class="btn btn-primary mt-3">Calculate</button>
-                        <div id="tipAmount" class="mb-5 mt-2"></div>
+                        <div id="tipAmount" class="mb-5 mt-3 font-weight-bold"></div>
                     </div>
                 </div>
             </div>
